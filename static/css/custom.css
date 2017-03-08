@@ -1,0 +1,121 @@
+body {
+	padding-top: 50px;
+	color: #959595;
+	background-color:  #222222;
+	}
+	
+h1, h2, h3, h4, h5, h6 {
+	color: #ddd;
+	}
+	
+.feature {
+	background-color: #337ab7;
+	color: #ddd;
+	}
+	
+.article-intro {
+    margin-bottom: 25px;
+    margin-left: 100px;
+}
+
+.picture {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.footer-blurb {
+    padding: 30px 0;
+    background-color: goldenrod;
+    color: black;
+}
+    
+.footer-blurb-item {
+    padding: 30px;
+    }
+ 
+.small-print {
+	background-color:  #222222;
+	padding: 30px 0;
+	text-align: center;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #337ab7;
+    color: white;
+    padding: 14px;
+    font-size: 16px;
+    
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: white;
+    color: black;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    float: all;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+.dropdown1 {
+    position: relative;
+    display: inline-block;
+    float: all;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    height: auto;
+    width: auto;
+    overflow: auto;
+    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)*/;
+    z-index: 1;
+      font-size: 15;
+      
+       size: 25px;
+  
+}
+
+/* Links inside the dropdown */
+.dropdown-content a, .show:focus {
+    color: black;
+     font-size: 16px;
+    padding: relative;
+    text-decoration: none;
+    display: block;
+   	margin-bottom: 10px;
+    padding-right: 10px;
+    margin-right: 25px;
+    display: block;
+
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: grey}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display: block;}
+
+
+.feature,
+.page-intro,
+.article-intro,
+.footer-blurb,
+.small-print 
+.dropbtn
+.show{
+	text-align: center;
+	}
